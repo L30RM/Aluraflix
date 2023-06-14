@@ -1,0 +1,27 @@
+.footer {
+  padding: 1rem 1rem;
+
+  border-top: 2px solid #2a7ae4;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.logo__footer {
+  display: flex;
+  justify-content: center;
+}
+
+.logo__footer img {
+  width: 25%;
+  max-width: 160px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
+    padding: 1rem 3rem;
+
+    border-top: 3px solid #2a7ae4;
+  }
+}
